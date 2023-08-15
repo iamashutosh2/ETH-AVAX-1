@@ -20,7 +20,7 @@ contract ashutosh {
 
         // Use revert() to provide custom error message
         if (newnumber > 10) {
-            revert("number cannot exceed 100");
+            revert("number cannot exceed 10");
         }
 
         number = newnumber;
